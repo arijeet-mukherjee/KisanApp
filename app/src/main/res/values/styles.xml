@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="AndroidStatusBarColor">
+        <item name="android:colorPrimary">@color/white_cream</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="com_facebook_button.">
+        <item name="android:colorPrimary">@color/white_cream</item>
+
+    </style>
+
+    <style name="AppTheme.LoginActionbar" parent="AppTheme.NoActionBar"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="custotoolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="appbar">
+            <item name="android:background">@color/white_cream</item>
+            <item name="overlapAnchor">false</item>
+            <item name="android:dropDownVerticalOffset">-4dp</item>
+        </style>
+
+
+
+
+</resources>

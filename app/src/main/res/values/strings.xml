@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">KisanApp</string>
+    <string name="email">email</string>
+    <string name="name">Name</string>
+    <string name="password">password</string>
+    <string name="button">Button</string>
+    <string name="face">facebook</string>
+    <string name="goog">google</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!!</string>
+    <string name="auth_failed">Authentication failed please check your email and password or sign up</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Dont have an account? sign up.</string>
+    <string name="btn_link_to_login">Already register! login me.</string>
+    <string name="reset">Reset Password</string>
+    <string name="btn_sign_out">Sign out</string>
+    <string name="forgot_password_msg">We just need your registered email id to sent you password reset instructions.</string>
+    <string name="btn_back">press to go back</string>
+    <string name="title_activity_google_login">GoogleSignin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="facebook_app_id">536973143745185</string>
+    <string name="fb_login_protocol_scheme">fb536973143745185</string>
+    <string name="action_logout"> Log Out</string>
+    <string name="back"><![CDATA[<< Back]]></string>
+    <string name="forgot">Forgot password??</string>
+
+    <string name="signout">Sign Out</string>
+
+    <string name="slidelogo">Logo</string>
+
+    <string name="des">IoT for farming, an intriguing concept indeed if the whole picture of current agricultural ecosystem is considered. Homosapiens of 21st century will find it hard to survive without internet, smartphones and all the innovations which have happened in recent years, albeit the primary necessities of human species to survive are air, food and water. A hell lot of factors are affecting farming industries and productivity of goods that are necessary for human living.</string>
+
+    <string name="start">Get Started</string>
+
+
+    <string name="temp">Temperature</string>
+    <string name="mois">Moisture</string>
+    <string name="sun">Weather</string>
+    <string name="humid">humidity</string>
+    <string name="nutrient">Nutrients</string>
+    <string name="ph">PH</string>
+
+    <string name="plantstat">PLANT STATS</string>
+    <string name="report">REPORT</string>
+    <string name="dash">DASHBOARD</string>
+    <string name="myplant">MY PLANT</string>
+    <string name="aboutus">ABOUT US</string>
+    <string name="myname">Arijeet Mukherjee</string>
+    <string name="myemail">ari123acess@gmail.com</string>
+    <string name="follow">Follow Me @</string>
+
+    <string name="describe">Our thought behind developing the app is to provide a big helping hand for our farmers and to bring a revolutionary change in indian Agriculture System. We develop system based on IOT and Artificial Intelligence. Talking of myself I am a budding machine learner and a #rd Year Btech Student in Computer Science. Coding is my passion, learning is my habit and developing is my desire..</string>
+    <string name="health">Your Plant is healthy!!</string>
+</resources>

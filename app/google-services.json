@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424462360030",
+    "firebase_url": "https://kisanapp-b810f.firebaseio.com",
+    "project_id": "kisanapp-b810f",
+    "storage_bucket": "kisanapp-b810f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424462360030:android:83f5dbf4c1e4f892f6d14f",
+        "android_client_info": {
+          "package_name": "com.example.kisanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424462360030-phq0bd9iv7evj6petqskcc67kbu7prjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kisanapp",
+            "certificate_hash": "5c4cbe6250899daf67440fd64467852225c9148e"
+          }
+        },
+        {
+          "client_id": "424462360030-unqqpsobh1eurcm0s4n0r741d90pdtlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6dkXI68cYbRUiM_kZNIpYGgnqR2MSKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424462360030-unqqpsobh1eurcm0s4n0r741d90pdtlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar"
+        android:layout_width="417dp"
+        android:layout_height="53dp">
+
+    </include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="143dp"
+            android:layout_height="177dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/card2"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.293"
+            app:srcCompat="@drawable/onboard2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+
+            android:layout_width="180dp"
+            android:layout_height="179dp"
+            android:alpha="0.7"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:cardBackgroundColor="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.748"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.295" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="1">
+
+                <TextView
+                    android:id="@+id/varText"
+                    android:layout_width="135dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.511"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.105" />
+
+                <TextView
+                    android:id="@+id/varText3"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/health"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.511"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.894" />
+
+                <TextView
+                    android:id="@+id/rcvRasp"
+                    android:layout_width="128dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="100 F"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.496" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/dashboard"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="131dp"
+            android:layout_height="43dp"
+            android:alpha="0.7"
+            android:background="@color/transparent"
+
+            android:shadowColor="#009688"
+            android:text="@string/dash"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/myplant"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="141dp"
+            android:layout_height="43dp"
+            android:alpha="1"
+            android:background="@color/transparent"
+
+            android:shadowColor="#009688"
+            android:text="@string/myplant"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/aboutus"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="140dp"
+            android:layout_height="43dp"
+            android:alpha="0.7"
+            android:background="@color/transparent"
+
+            android:shadowColor="#009688"
+            android:text="@string/aboutus"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/report"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:alpha="0.8"
+            android:background="@color/transparent"
+            android:shadowColor="#009688"
+            android:text="@string/report"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.21" />
+
+        <Button
+            android:id="@+id/plantstat"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="158dp"
+            android:layout_height="40dp"
+            android:alpha="1"
+            android:background="@color/green"
+            android:shadowColor="#009688"
+            android:text="@string/plantstat"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.21" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="293dp"
+            android:layout_height="247dp"
+            android:alpha="0.7"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:cardBackgroundColor="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.779">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="255dp">
+
+                <ImageButton
+                    android:id="@+id/imMoisture"
+                    android:layout_width="59dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="116dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="118dp"
+                    android:contentDescription="@string/mois"
+                    app:srcCompat="@drawable/moisture" />
+
+                <ImageButton
+                    android:id="@+id/imSun"
+                    android:layout_width="59dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="113dp"
+                    android:layout_marginBottom="61dp"
+                    android:contentDescription="@string/sun"
+                    app:srcCompat="@drawable/sun" />
+
+                <ImageButton
+                    android:id="@+id/imPh"
+                    android:layout_width="61dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginBottom="56dp"
+                    android:contentDescription="@string/ph"
+                    app:srcCompat="@drawable/ph" />
+
+                <ImageButton
+                    android:id="@+id/imNutirient"
+                    android:layout_width="63dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="55dp"
+                    android:contentDescription="@string/nutrient"
+                    app:srcCompat="@drawable/nutrient" />
+
+                <ImageButton
+                    android:id="@+id/imHumid"
+                    android:layout_width="62dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="199dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginEnd="32dp"
+                    android:contentDescription="@string/humid"
+                    app:srcCompat="@drawable/humidity" />
+
+                <ImageButton
+                    android:id="@+id/imTemp"
+                    android:layout_width="71dp"
+                    android:layout_height="63dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="204dp"
+                    android:layout_marginBottom="166dp"
+                    android:contentDescription="@string/temp"
+                    app:srcCompat="@drawable/temp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="202dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="@string/temp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="125dp"
+                    android:layout_marginBottom="-93dp"
+                    android:text="@string/sun"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="37dp"
+                    android:layout_marginBottom="-96dp"
+                    android:text="@string/nutrient"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="233dp"
+                    android:layout_marginBottom="-94dp"
+                    android:text="@string/ph"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="123dp"
+                    android:layout_marginBottom="21dp"
+                    android:text="@string/mois"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imPh"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="22dp"
+                    android:text="@string/humid"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
