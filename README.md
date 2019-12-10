@@ -14,5 +14,11 @@ The most amazing thing about the app is that it uses the phone camera
 To predict the disease of the plant and infact it guides the farmer with some
 Necessary steps to handle it.
 
+You can find this sample working apk at:
+
+
+https://drive.google.com/file/d/0B8hO56j6OYntQmtBc001STNBMWs/view?usp=drivesdk
+
+
 
 #####Development is still going on#######
